@@ -1,0 +1,15 @@
+/* Custom class for Bitcount Prop Single font */
+.bitcount-title {
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 4cm;
+    color: darkblue;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0;
+  }
