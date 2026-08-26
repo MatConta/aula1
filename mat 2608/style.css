@@ -1,0 +1,24 @@
+.direita {
+    float: right;
+    margin-left: auto;
+    size: auto;
+}
+.esquerda {
+    float: left;
+    margin-right: auto;
+    size: auto;
+}
+.sukuna {
+    width: 800px;
+    height: auto;
+}
+.gojo {
+    width: 600px;
+    height: auto;
+}
+.nome {
+    height: 300px;
+    width: auto;
+    background-color: grey;
+    color: black;
+}
