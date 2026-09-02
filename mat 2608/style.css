@@ -1,24 +1,97 @@
-.direita {
-    float: right;
-    margin-left: auto;
-    size: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.esquerda {
-    float: left;
-    margin-right: auto;
-    size: auto;
+
+html {
+    scroll-behavior: smooth;
+    /* espaço para a navbar fixa ao rolar até uma seção */
+    scroll-padding-top: 90px;
 }
-.sukuna {
-    width: 800px;
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    /* gradiente de fundo da página */
+    /* background: linear-gradient(135deg, #e0eafc, #cfd9f0, #d7c9f0); mais claro */
+    background: linear-gradient(105deg, #940000fa, #140000, #00bbff);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Cabeçalho fixo no topo */
+header {
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Navbar */
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 110px 20px 40px;
+}
+
+section {
+    background-color: rgb(20, 20, 20);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+section h1,
+section h2 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.github {
+    color: rgb(92, 255, 250);
+}
+
+.mago {
+    width: 300px;
     height: auto;
 }
-.gojo {
+.Sukuna {
+    width: 250px;
+    height: auto;
+}
+.Gojo {
+    width: 200px;
+    height: auto;
+}
+.Chadamongus {
     width: 600px;
     height: auto;
-}
-.nome {
-    height: 300px;
-    width: auto;
-    background-color: grey;
-    color: black;
 }
